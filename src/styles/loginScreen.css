@@ -1,0 +1,82 @@
+.login_screen {
+	position: relative;
+	height: 100%;
+	background-image: url(../assets/images/spotlightBg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.login_logo {
+	position: fixed;
+	top: 30px;
+	left: 30px;
+	object-fit: contain;
+	width: 150px;
+	cursor: pointer;
+}
+.signin_button {
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	padding: 10px 20px;
+	color: #fff;
+	font-size: 1rem;
+	background-color: #e50914;
+	border: none;
+	outline: none;
+	font-weight: 600;
+	cursor: pointer;
+}
+.loginscreen_gradient {
+	height: 100vh;
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.8) 0,
+		rgba(0, 0, 0, 0) 60%,
+		rgba(0, 0, 0, 0.8) 100%
+	);
+}
+.content {
+	position: absolute;
+	z-index: 5;
+	top: 30%;
+	padding: 0 20px 20px;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.content h1 {
+	width: 50%;
+	margin-bottom: 30px;
+	margin: 0 auto;
+	font-size: 54px;
+}
+.content h3 {
+	font-weight: 400;
+	margin-bottom: 30px;
+	font-size: 2rem;
+}
+.content h5 {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.login_screen input {
+	padding: 20px;
+	width: 35%;
+	border: none;
+	outline: none;
+	font-size: 16px;
+}
+.start_button {
+	padding: 20px 20px;
+	background-color: #e50914;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+}

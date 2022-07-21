@@ -1,0 +1,30 @@
+.nav_bar {
+	padding: 15px 0;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	margin-bottom: 20px;
+	transition-timing-function: ease-in;
+	transition: all 0.5s;
+}
+.nav_black {
+	background: #111;
+}
+.nav_container {
+	justify-content: space-between;
+	align-self: center;
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+}
+.nav_logo {
+	width: 150px;
+	object-fit: contain;
+	cursor: pointer;
+}
+.nav_avatar {
+	width: 50px;
+	object-fit: contain;
+	cursor: pointer;
+}
